@@ -42,7 +42,7 @@ const Footer = () => {
           </ul>
         </div>
             <Separator />
-            <span className="block text-sm text-gray-500 text-center dark:text-gray-400">
+            <span className="block text-sm text-gray-500 text-center mt-2 dark:text-gray-400">
               &copy; 2024
               <Link className= "text-center" href={"/"}>{" "}LeoDev. </Link>Todos los derechos reservados.
             </span>
