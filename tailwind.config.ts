@@ -16,6 +16,12 @@ const config = {
       screens: {
         "2xl": "1400px",
       },
+  extend: {
+    fontFamily: {
+      urbanist: ["var(--font-urbanist)", "sans-serif"],
+      playfair: ["var(--font-playfair)", "serif"],
+    },
+  },
     },
     extend: {
       colors: {
