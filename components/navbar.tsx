@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import MenuList from "./menuList";
 import MenuItemMobile from "./menu-item-mobile";
@@ -10,7 +10,7 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <div className="flex items-center justify-between p-4 my-auto cursor-pointer sm:max-w-4xl md:max-w-6xl">
-      <img src={logo.src} alt="Logo" className="w-[50px] md:w-[70px] h-auto rounded-full" />
+     <Image src={logo} alt="Logo" className="w-[50px] md:w-[70px] h-auto rounded-full" />
       <h1 className="flex uppercase text-base md:text-xl font-bold my-auto" onClick={() => router.push("/")}>
         Mariachi Puro Mezcal
       </h1>
