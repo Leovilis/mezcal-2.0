@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -16,14 +16,12 @@ const config = {
       screens: {
         "2xl": "1400px",
       },
-  extend: {
-    fontFamily: {
-      urbanist: ["var(--font-urbanist)", "sans-serif"],
-      playfair: ["var(--font-playfair)", "serif"],
-    },
-  },
     },
     extend: {
+      fontFamily: {
+        urbanist: ["var(--font-urbanist)", "sans-serif"],
+        playfair: ["var(--font-playfair)", "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
