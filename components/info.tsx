@@ -7,7 +7,7 @@ const Info = () => {
   return (
     <div className="flex flex-col justify-center items-center px-4 gap-16 mt-8 mb-16">
 
-      <h1 className="font-bold text-3xl md:text-6xl text-center uppercase tracking-wide">
+      <h1 className="font-playfair font-black text-3xl md:text-6xl text-center uppercase tracking-wide">
         Mariachi Puro Mezcal
       </h1>
 
@@ -19,7 +19,7 @@ const Info = () => {
           className="w-[300px] md:w-[420px] h-auto rounded-lg shadow-md flex-shrink-0"
         />
         <div className="flex flex-col gap-4 md:text-left text-center">
-          <h2 className="text-2xl md:text-4xl font-bold uppercase tracking-wide">
+          <h2 className="text-2xl md:text-4xl font-playfair font-bold uppercase tracking-wide">
             Hacemos que cada momento se convierta en un recuerdo eterno
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
