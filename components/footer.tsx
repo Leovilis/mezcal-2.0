@@ -19,7 +19,7 @@ const dataFooter = [
     id: 1,
     name: "Instagram",
     icon: Instagram,
-    link: "https://www.instagram.com/puromezcalarg?igsh=ZGJubjgyd3dicDR5"
+    link: "https://www.instagram.com/mariachi.puro.mezcal?igsh=MXdrMWVyNmNvY2Q0NQ=="
   },
   {
     id: 2,
